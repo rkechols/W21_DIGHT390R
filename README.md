@@ -2,7 +2,7 @@
 
 Resources for DIGHT 390R: NLP for low-resource languages
 
-# Points of communication
+## Points of communication
 
 * [Slack](https://reynoldsnlp.slack.com)
   * Virtually all communication about the course will happen here
@@ -17,7 +17,7 @@ Resources for DIGHT 390R: NLP for low-resource languages
   * Schedule of topics
   * Zoom links and recordings
 
-# General resources
+## General resources
 
 * HFST: https://github.com/hfst/hfst/wiki
 * VISLCG3: https://visl.sdu.dk/cg3.html
