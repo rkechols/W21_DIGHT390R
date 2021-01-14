@@ -135,3 +135,12 @@ You can use the `-v` flag to return lines that DO NOT match the pattern:
 1. Use `grep` with `ls` to list files in `/usr/local/bin/` that contain `visl`
 1. Use `grep` with `ls` to list files in `/usr/local/bin/` that do NOT contain
    `hfst`, but DO contain the letter `s` and read the output with `less`.
+
+## Other useful commands
+
+Use `man` to explore these other useful commands
+
+* `rev`
+* `sort`
+* `uniq`
+* `cut`
