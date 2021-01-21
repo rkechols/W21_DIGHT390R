@@ -48,10 +48,10 @@ the same result. Note that by convention, compiled transducers have the `.hfst`
 file extension.
 
 ```bash
-$ hfst-lexc -o first.hfst first.lexc 
-$ hfst-lexc first.lexc > first.hfst
-$ cat first.lexc | hfst-lexc > first.hfst
-$ cat first.lexc | hfst-lexc -o first.hfst
+$ hfst-lexc -o first_generator.hfst first.lexc 
+$ hfst-lexc first.lexc > first_generator.hfst
+$ cat first.lexc | hfst-lexc > first_generator.hfst
+$ cat first.lexc | hfst-lexc -o first_generator.hfst
 ```
 
 ## Look up words in a compiled transducer
@@ -59,8 +59,9 @@ $ cat first.lexc | hfst-lexc -o first.hfst
 Once you have compiled a transducer, you can test it out using the
 `hfst-lookup` command. For example, assuming that the previous compilation was
 successful, the following command will send a string to be analyzed by the
-compiled transducer.
+compiled transducer. Our transducer is a generator, so the string that we give
+should be a lemma and tags.
 
 ```bash
-$ echo word | hfst-lookup first.hfst
+$ echo teach+V+Past | hfst-lookup first.hfst
 ```
