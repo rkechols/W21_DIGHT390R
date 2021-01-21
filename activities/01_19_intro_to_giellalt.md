@@ -63,5 +63,5 @@ compiled transducer. Our transducer is a generator, so the string that we give
 should be a lemma and tags.
 
 ```bash
-$ echo teach+V+Past | hfst-lookup first.hfst
+$ echo teach+V+Past | hfst-lookup first_generator.hfst
 ```
