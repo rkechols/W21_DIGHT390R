@@ -17,9 +17,9 @@ want, you can run `bash` inside of `zsh`, or vice versa.
 
 When you first open your terminal, it automatically "sources" the hidden file
 in your home directory `~/.profile`. (`~` is a shortcut for your home directory
-`/home/\<username\>/`. In Linux/MacOS, any file that that start with `.` is a
-hidden file.) One important thing that this file does is to define where `bash`
-will look for executable files, i.e. the `PATH` variable.
+`/home/<username>/` or `/Users/<username>`. In Linux/MacOS, any file that that
+start with `.` is a hidden file.) One important thing that this file does is to
+define where `bash` will look for executable files, i.e. the `PATH` variable.
 
 ## Navigation
 
@@ -44,11 +44,11 @@ will look for executable files, i.e. the `PATH` variable.
 
 ### Navigation practice
 
-`cd` into your home directory and create a tree of directories that represents
-your family tree. Start by making a directory with one of your grandparents'
-names, then `cd` into that directory, and make a new directory for at least two
-of their children. Continue until you feel comfortable navigating. 
-Move around your file system using `pwd`, `ls`, and `cd` (and
+`cd` into your the `/tmp/` directory and create a tree of directories that
+represents your family tree. Start by making a directory with one of your
+grandparents' names, then `cd` into that directory, and make a new directory
+for at least two of their children. Continue until you feel comfortable
+navigating.  Move around your file system using `pwd`, `ls`, and `cd` (and
 [tab]!) until all of them are automatic.
 
 ## Redirecting `stdout` and `stderr`
