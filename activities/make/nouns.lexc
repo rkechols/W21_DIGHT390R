@@ -1,0 +1,8 @@
+LEXICON Nouns
+word Noun ;
+apple Noun ;
+
+LEXICON Noun
++N+Sg: # ;
++N+Pl:s # ;
+

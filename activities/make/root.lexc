@@ -1,0 +1,23 @@
+Multichar_Symbols
+
+!!! Part of speech
++N   ! Noun
++V   ! Verb
+
+!!! Number
++Sg  ! Singular
++Pl  ! Plural
+
+!!! Tense
++Past    ! Past tense
++Pres ! Present tense
+
+!!! Verb tags
++3Sg ! 3rd person singular
++PresPtc ! Present participle
+
+
+LEXICON Root
+Nouns ;
+Verbs ;
+

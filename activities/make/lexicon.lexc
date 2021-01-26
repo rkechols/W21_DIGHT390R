@@ -1,0 +1,51 @@
+Multichar_Symbols
+
+!!! Part of speech
++N   ! Noun
++V   ! Verb
+
+!!! Number
++Sg  ! Singular
++Pl  ! Plural
+
+!!! Tense
++Past    ! Past tense
++Pres ! Present tense
+
+!!! Verb tags
++3Sg ! 3rd person singular
++PresPtc ! Present participle
+
+
+LEXICON Root
+Nouns ;
+Verbs ;
+
+LEXICON Nouns
+word Noun ;
+apple Noun ;
+
+LEXICON Noun
++N+Sg: # ;
++N+Pl:s # ;
+
+LEXICON Verbs
+walk V ;
+talk V ;
+pack V ;
+t V-each-aught ; ! teach+V+Past:taught
+
+LEXICON V-each-aught
+each+V+Pres+3Sg:eaches # ;
+each+V+Pres:each # ;
+each+V+Past:aught # ;
+
+LEXICON V
++V: V-suff ;
+
+LEXICON V-suff
++Pres+3Sg:s   # ;
++Past:ed  # ;
++PresPtc:ing # ;
++Pres:    # ;
+
