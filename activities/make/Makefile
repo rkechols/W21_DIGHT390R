@@ -30,7 +30,7 @@ ana.png : ana.hfst
 	hfst-fst2txt ana.hfst | python3 att2dot.py | dot -T png -o ana.png
 
 lexicon.png : lexicon.lexc
-	python3 lexc2dot.py <lexicon.lexc | dot -T png -o lexicon.png  # BUG
+	python3 lexc2dot.py <lexicon.lexc | dot -T png -o lexicon.png  # had a bug; fixed now?
 
 .PHONY : clean
 clean :
