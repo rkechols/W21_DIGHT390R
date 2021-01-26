@@ -30,7 +30,8 @@ for row in lines:
     if row[0] == 'LEXICON':
         cur_lex = row[1]
         continue
-    if row[0].count(':') > 0 and row[1] != '' and row[1] != ';':
+    # if row[0].count(':') > 0 and row[1] != '' and row[1] != ';':
+    if cur_lex != '' and row[1] != '' and row[1] != ';':
         s = 1
         g[cur_lex].append(row[1])
     elif (len(row) >= 2
