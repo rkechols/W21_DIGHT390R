@@ -1,3 +1,4 @@
 *.png
-*.hfst*
+*.hfst
+*.hfstol
 lexicon.lexc
