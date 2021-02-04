@@ -14,8 +14,14 @@ all : lexicon.lexc \
 lexicon.lexc : root.lexc nouns.lexc verbs.lexc
 	cat root.lexc nouns.lexc verbs.lexc > lexicon.lexc
 
-gen.hfst : lexicon.lexc
-	hfst-lexc <lexicon.lexc >gen.hfst
+phon.hfst : phon.twolc
+	hfst-twolc phon.twolc > phon.hfst
+
+gen.tmp.hfst : lexicon.lexc
+	hfst-lexc <lexicon.lexc >gen.tmp.hfst
+
+gen.hfst : gen.tmp.hfst phon.hfst
+	hfst-compose-intersect -1 gen.tmp.hfst -2 phon.hfst -o gen.hfst
 
 gen.hfstol : gen.hfst
 	hfst-fst2fst --optimized-lookup-unweighted -i gen.hfst -o gen.hfstol
