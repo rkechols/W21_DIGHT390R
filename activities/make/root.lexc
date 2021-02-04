@@ -20,6 +20,9 @@ Multichar_Symbols
 
 ch  ! what happens?
 
+@U.reg.rur@  ! a-walking, a-talking, etc.
+@U.reg.std@  ! standard norms
+
 
 LEXICON Root
 Nouns ;
