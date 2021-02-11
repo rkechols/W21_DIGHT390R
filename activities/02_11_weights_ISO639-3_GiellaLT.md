@@ -1,7 +1,7 @@
 # ISO 639-3 codes
 
-https://en.wikipedia.org/wiki/ISO_639-3
-https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes
+* https://en.wikipedia.org/wiki/ISO_639-3
+* https://en.wikipedia.org/wiki/List_of_ISO_639-3_codes
 
 Most wikipedia articles about languages have the ISO 639-3 code in the table
 on the right.
